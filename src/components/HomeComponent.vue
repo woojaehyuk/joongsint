@@ -8,15 +8,7 @@
           <v-card flat>
             <v-row>
               <v-col xs="12" sm="12" md="12" lg="6" xl="6">
-                <img
-                  src="@/assets/junsint_team.jpg"
-                  style="
-                    width: 400px;
-                    height: 300px;
-                    margin: auto;
-                    display: block;
-                  "
-                />
+                <v-img :width="500" cover src="@/assets/junsint_team.jpg" />
               </v-col>
               <v-col xs="12" sm="12" md="12" lg="6" xl="6">
                 <h1>JungSint</h1>
