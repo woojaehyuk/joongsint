@@ -1,33 +1,40 @@
 <template>
-  <div>
-    <div>
-      <b-navbar toggleable="lg" type="dark" variant="success">
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <div style="color: white">자유게시판</div>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
-    </div>
-    <div>
-      <b-table
-        striped
-        hover
-        :items="items"
-        :per-page="perPage"
-        :current-page="currentPage"
-        :fields="fields"
-        @row-clicked="rowClick"
-      ></b-table>
-      <b-pagination
-        v-model="currentPage"
-        :total-rows="rows"
-        :per-page="perPage"
-        align="center"
-      ></b-pagination>
-      <b-button @click="writeContent">글쓰기</b-button>
-    </div>
-  </div>
+  <v-container grid-list-md text-xs-center>
+    <v-layout row wrap>
+      <v-flex>
+        <v-caruosel cycle>
+          <div>
+            <br />
+            <b-navbar type="dark" variant="success">
+              <b-collapse id="nav-collapse" is-nav>
+                <b-navbar-nav>
+                  <div style="color: white">자유게시판</div>
+                </b-navbar-nav>
+              </b-collapse>
+            </b-navbar>
+          </div>
+          <div>
+            <b-table
+              striped
+              hover
+              :items="items"
+              :per-page="perPage"
+              :current-page="currentPage"
+              :fields="fields"
+              @row-clicked="rowClick"
+            ></b-table>
+            <b-pagination
+              v-model="currentPage"
+              :total-rows="rows"
+              :per-page="perPage"
+              align="center"
+            ></b-pagination>
+            <b-button @click="writeContent">글쓰기</b-button>
+          </div>
+        </v-caruosel>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

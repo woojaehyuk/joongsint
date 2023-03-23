@@ -7,18 +7,18 @@
         <v-caruosel cycle>
           <v-card flat>
             <v-row>
-              <v-col>
+              <v-col xs="12" sm="12" md="12" lg="6" xl="6">
                 <img
                   src="@/assets/junsint_team.jpg"
                   style="
-                    width: 500px;
-                    height: 350px;
+                    width: 400px;
+                    height: 300px;
                     margin: auto;
                     display: block;
                   "
                 />
               </v-col>
-              <v-col>
+              <v-col xs="12" sm="12" md="12" lg="6" xl="6">
                 <h1>JungSint</h1>
                 <br />
                 <h2>OSINT 솔루션으로 세상을 선도합니다.</h2>

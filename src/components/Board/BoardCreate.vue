@@ -1,18 +1,27 @@
 <template>
-  <div>
-    <b-input v-model="subject" placeholder="제목을 입력해주세요."></b-input>
-    <b-form-textarea
-      v-model="context"
-      placeholder="내용을 입력해 주세요"
-      rows="3"
-      max-rows="6"
-    ></b-form-textarea>
-    <br />
-    <b-button @click="updateMode ? updateContent() : uploadContent()"
-      >저장</b-button
-    >&nbsp;
-    <b-button @click="cancle">취소</b-button>
-  </div>
+  <v-container grid-list-md text-xs-center>
+    <v-layout row wrap>
+      <v-flex>
+        <v-caruosel cycle>
+          <b-input
+            v-model="subject"
+            placeholder="제목을 입력해주세요."
+          ></b-input>
+          <b-form-textarea
+            v-model="context"
+            placeholder="내용을 입력해 주세요"
+            rows="3"
+            max-rows="6"
+          ></b-form-textarea>
+          <br />
+          <b-button @click="updateMode ? updateContent() : uploadContent()"
+            >저장</b-button
+          >&nbsp;
+          <b-button @click="cancle">취소</b-button>
+        </v-caruosel>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -25,7 +34,7 @@ export default {
       subject: '',
       context: '',
       user_id: 1,
-      created_at: '2018-09-11',
+      created_at: '2023-03-24',
       updated_at: null,
       updateObject: null,
       updateMode: this.$route.params.contentId > 0 ? true : false,

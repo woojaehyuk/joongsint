@@ -1,34 +1,41 @@
 <template>
-  <div>
-    <b-card>
-      <div class="content-detail-content-info">
-        <div class="content-detail-content-info-left">
-          <div class="content-detail-content-info-left-number">
-            {{ contentId }}
-          </div>
-          <div class="content-detail-content-info-left-subject">
-            {{ title }}
-          </div>
-        </div>
-        <div class="content-detail-content-info-right">
-          <div class="content-detail-content-info-right-user">
-            글쓴이: {{ user }}
-          </div>
-          <div class="content-detail-content-info-right-created">
-            등록일: {{ created }}
-          </div>
-        </div>
-      </div>
-      <div class="content-detail-content">{{ context }}</div>
-      <div class="content-detail-button">
-        <b-button variant="primary" @click="updateData">수정</b-button>&nbsp;
-        <b-button variant="success" @click="deleteData">삭제</b-button>
-      </div>
-      <!-- <div class="content-detail-comment">
+  <v-container grid-list-md text-xs-center>
+    <v-layout row wrap>
+      <v-flex>
+        <v-caruosel cycle>
+          <b-card>
+            <div class="content-detail-content-info">
+              <div class="content-detail-content-info-left">
+                <div class="content-detail-content-info-left-number">
+                  {{ contentId }}
+                </div>
+                <div class="content-detail-content-info-left-subject">
+                  {{ title }}
+                </div>
+              </div>
+              <div class="content-detail-content-info-right">
+                <div class="content-detail-content-info-right-user">
+                  글쓴이: {{ user }}
+                </div>
+                <div class="content-detail-content-info-right-created">
+                  등록일: {{ created }}
+                </div>
+              </div>
+            </div>
+            <div class="content-detail-content">{{ context }}</div>
+            <div class="content-detail-button">
+              <b-button variant="primary" @click="updateData">수정</b-button
+              >&nbsp;
+              <b-button variant="success" @click="deleteData">삭제</b-button>
+            </div>
+            <!-- <div class="content-detail-comment">
         <CommentList :contentId="contentId"></CommentList>
       </div> -->
-    </b-card>
-  </div>
+          </b-card>
+        </v-caruosel>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -80,7 +87,7 @@ export default {
 }
 
 .content-detail-content-info-left {
-  width: 720px;
+  width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
