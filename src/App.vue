@@ -4,29 +4,44 @@
       <Navbar />
     </div>
     <v-main>
-      <!--<v-toolbar height="10px" color="indigo"> </v-toolbar>-->
       <div id="contents">
         <router-view />
       </div>
     </v-main>
-    <v-footer height="250px" color="white" justify="center">
-      <p class="sns">
-        <a
-          href="https://www.facebook.com/jungsint"
-          target="_blank"
-          class="facebook"
-          >페이스북</a
-        >
-        <a href="https://twitter.com/Joongsint" target="_blank" class="twitter"
-          >트위터</a
-        >
-        <a
-          href="https://instagram.com/jungsint"
-          target="_blank"
-          class="instagram"
-          >인스타그램</a
-        >
-      </p>
+    <v-footer app dark padless>
+      <v-card
+        tile
+        color="#f8f9fa"
+        dark
+        center
+        class="white--text text-center"
+        width="100%"
+      >
+        <v-card-text> </v-card-text>
+        <v-card-text class="black--text pt-0">
+          <p class="sns">
+            SNS 바로가기 :
+            <a
+              href="https://www.facebook.com/jungsint"
+              target="_blank"
+              class="facebook black--text pt-0"
+              >페이스북</a
+            >
+            <a
+              href="https://twitter.com/Joongsint"
+              target="_blank"
+              class="twitter black--text pt-0"
+              >트위터</a
+            >
+            <a
+              href="https://instagram.com/jungsint"
+              target="_blank"
+              class="instagram black--text pt-0"
+              >인스타그램</a
+            >
+          </p>
+        </v-card-text>
+      </v-card>
     </v-footer>
   </v-app>
 </template>

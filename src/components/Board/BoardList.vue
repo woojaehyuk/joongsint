@@ -1,10 +1,10 @@
 <template>
   <div>
     <div>
-      <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar toggleable="lg" type="dark" variant="success">
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item to="#">자유게시판</b-nav-item>
+            <div style="color: white">자유게시판</div>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
