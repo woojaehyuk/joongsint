@@ -11,7 +11,7 @@
                 <v-img :width="500" cover src="@/assets/junsint_team.jpg" />
               </v-col>
               <v-col xs="12" sm="12" md="12" lg="6" xl="6">
-                <h1>JungSint</h1>
+                <h1>JoongSint</h1>
                 <br />
                 <h2>OSINT 솔루션으로 세상을 선도합니다.</h2>
                 <br /><br />
