@@ -21,7 +21,7 @@
         <v-card-text class="black--text pt-0">
           <p class="sns">
             <a
-              href="https://www.facebook.com/jungsint"
+              href="https://www.facebook.com/Joongsint"
               target="_blank"
               class="facebook black--text pt-0"
               ><svg
@@ -53,7 +53,7 @@
                 /></svg
             ></a>
             <a
-              href="https://instagram.com/jungsint"
+              href="https://instagram.com/Joongsint"
               target="_blank"
               class="instagram black--text pt-0"
               ><svg
