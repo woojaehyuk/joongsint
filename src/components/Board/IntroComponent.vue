@@ -84,7 +84,7 @@
                     :src="require('@/assets/member3.png')"
                   ></b-card-img>
                   <b-card-text><b>우제혁</b> (총괄 및 운영)</b-card-text>
-                  <b-card-text> 정보1 </b-card-text>
+                  <b-card-text> wpgur@gmail.com </b-card-text>
                 </b-card>
               </v-col>
 
@@ -119,7 +119,7 @@
                     :src="require('@/assets/member2.png')"
                   ></b-card-img>
                   <b-card-text><b>신재형</b> (서비스 개발)</b-card-text>
-                  <b-card-text> 정보1 </b-card-text>
+                  <b-card-text> 이메일 : shinwogud12@naver.com </b-card-text>
                 </b-card>
               </v-col>
 
@@ -136,7 +136,7 @@
                     :src="require('@/assets/member4.jpg')"
                   ></b-card-img>
                   <b-card-text><b>이예준</b> (서비스 개발)</b-card-text>
-                  <b-card-text> 정보1 </b-card-text>
+                  <b-card-text> 이메일 : exit3015@gmail.com </b-card-text>
                 </b-card>
               </v-col>
 
@@ -153,7 +153,7 @@
                     :src="require('@/assets/member5.png')"
                   ></b-card-img>
                   <b-card-text><b>이정호</b> (서비스 개발)</b-card-text>
-                  <b-card-text> 정보1 </b-card-text>
+                  <b-card-text> wjdgh7575@naver.com </b-card-text>
                 </b-card>
               </v-col>
             </v-row>
