@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'jungsint',
+      name: 'joongsint',
       script: './node_modules/@vue/cli-service/bin/vue-cli-service.js',
       args: 'serve --port 3000',
       instances: 0,
