@@ -104,7 +104,7 @@
                   ><br />
                   <b-card-text><b>송태현</b> (서비스 개발) </b-card-text>
                   <b-card-text> 직급 : 검색부장 </b-card-text>
-                  <b-card-text> 이메일 : </b-card-text>
+                  <b-card-text> 이메일 : truebird0109@gmail.com </b-card-text>
                 </b-card>
               </v-col>
 

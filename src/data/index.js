@@ -64,7 +64,7 @@ export default {
       user_id: 2,
       title: '검색 관련 공지사항',
       context:
-        '안녕하세요. 송태현입니다. 여러 검색엔진에 대한 결과 값을 정리하여 더 정확하고 좋은 데이터를 제공할 수 있게 노력하겠습니다. (이메일: )',
+        '안녕하세요. 송태현입니다. 여러 검색엔진에 대한 결과 값을 정리하여 더 정확하고 좋은 데이터를 제공할 수 있게 노력하겠습니다. (이메일: truebird0109@gmail.com)',
       created_at: '2023-04-06',
       updated_at: null,
     },
@@ -73,7 +73,7 @@ export default {
       user_id: 6,
       title: '서버 관련 공지사항',
       context:
-        '서버 부장입니다. 서버가 느려지거나 다운될 경우 거침없이 연락주세요. (이메일: wjdgh7575@naver.com )',
+        '서버 부장입니다. 서버가 느려지거나 다운될 경우 거침없이 연락주세요. (이메일: wjdgh7575@naver.com)',
       created_at: '2023-04-06',
       updated_at: null,
     },
